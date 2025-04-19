@@ -134,3 +134,25 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ---- Scroll Genesis additions ----
+# Output from Firebase Studio preview builds
+.firebase/
+firebase.json
+
+# Tailwind JIT cache
+.tailwind/
+
+# Vite cache
+node_modules/.vite/
+
+# Cypress screenshots / videos (future tests)
+cypress/screenshots/
+cypress/videos/
+
+# Lighthouse CI reports
+lhci_reports/
+
+# Local prototype dumps
+prototypes/
+
